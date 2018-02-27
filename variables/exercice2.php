@@ -14,3 +14,8 @@
 
 
 $number = [1,2,3,4];
+    array_push($number, "5", "6");
+    echo count($number);
+    echo "<br>";
+    // var_dump($number[2]); Affiche les informations d'une variable
+    echo($number[1]);
