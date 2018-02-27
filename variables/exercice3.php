@@ -11,6 +11,8 @@
 
 $number = [1,2,3,4];
 $insert = ["A","B","C"];
+array_splice($number,2 ,0,$insert);
+var_dump($number);
 
 
 /**
