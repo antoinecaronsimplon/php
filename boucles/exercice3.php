@@ -10,6 +10,10 @@ $data = [4,3.2,'thomas','formation',5,3.14,8];
 //         echo $valeur.'<br/>'."\n";
 // }
 
-for ($data=0; $data <= 7; $data++){
-    echo $data;
+foreach ($data as $data) {
+    echo "is_int(";
+    var_export($data);
+    echo ")=";
+    var_dump(is_int($data));
 }
+
